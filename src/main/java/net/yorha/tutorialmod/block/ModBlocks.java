@@ -21,7 +21,7 @@ public class ModBlocks {
             );
 
     public static final RegistryObject<Block> MOONSTONE_BLOCK =registerBlock("moonstone_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS).sound(SoundType.AMETHYST)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> MOONSTONE_ORE =registerBlock("moonstone_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)));
