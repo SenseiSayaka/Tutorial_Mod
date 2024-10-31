@@ -1,5 +1,7 @@
 {
-  "item.tutorialmod.core": "Core",
-  "creativetab.tutorial_tab":"DBMS Tab",
-  "block.tutorialmod.hotov_block": "Block of Hotov"
+  "item.tutorialmod.moonstone": "Moonstone Crystal",
+  "item.tutorialmod.raw_moonstone": "Raw Moonstone",
+  "creativetab.tutorial_tab":"Moonstone Mod",
+  "block.tutorialmod.moonstone_block": "Moonstone Block",
+  "block.tutorialmod.moonstone_ore": "Moonstone Ore"
 }

@@ -4,6 +4,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,7 +20,10 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID
             );
 
-    public static final RegistryObject<Block> HOTOV_BLOCK =registerBlock("hotov_block",
+    public static final RegistryObject<Block> MOONSTONE_BLOCK =registerBlock("moonstone_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> MOONSTONE_ORE =registerBlock("moonstone_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)));
 
     private static<T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

@@ -14,11 +14,13 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab", () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.CORE.get()))
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab", () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.MOONSTONE.get()))
             .title(Component.translatable("creativetab.tutorial_tab"))
             .displayItems((pParameters, pOutput) ->{
-                pOutput.accept(ModItems.CORE.get());
-                pOutput.accept(ModBlocks.HOTOV_BLOCK.get());
+                pOutput.accept(ModItems.MOONSTONE.get());
+                pOutput.accept(ModItems.RAW_MOONSTONE.get());
+                pOutput.accept(ModBlocks.MOONSTONE_BLOCK.get());
+                pOutput.accept(ModBlocks.MOONSTONE_ORE.get());
             })
             .build());
 

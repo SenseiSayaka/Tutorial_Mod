@@ -12,7 +12,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID
             );
 
-    public static final RegistryObject<Item> CORE = ITEMS.register("core",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOONSTONE = ITEMS.register("moonstone",() -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_MOONSTONE = ITEMS.register("raw_moonstone",() -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
