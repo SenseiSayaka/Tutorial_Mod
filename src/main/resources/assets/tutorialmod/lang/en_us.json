@@ -3,5 +3,9 @@
   "item.tutorialmod.raw_moonstone": "Raw Moonstone",
   "creativetab.tutorial_tab":"Moonstone Mod",
   "block.tutorialmod.moonstone_block": "Moonstone Block",
-  "block.tutorialmod.moonstone_ore": "Moonstone Ore"
+  "block.tutorialmod.raw_moonstone_block": "Raw Moonstone Block",
+  "block.tutorialmod.moonstone_ore": "Moonstone Ore",
+  "block.tutorialmod.deepslate_moonstone_ore": "Deepslate Moonstone Ore",
+  "block.tutorialmod.nether_moonstone_ore": "Nether Moonstone Ore",
+  "block.tutorialmod.end_moonstone_ore": "Endstone Moonstone Ore"
 }

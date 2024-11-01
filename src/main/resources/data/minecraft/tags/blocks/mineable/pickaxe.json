@@ -1,6 +1,11 @@
 {
   "values": [
     "tutorialmod:moonstone_block",
-    "tutorialmod:moonstone_ore"
+    "tutorialmod:raw_moonstone_block",
+    "tutorialmod:moonstone_ore",
+    "tutorialmod:deepslate_moonstone_ore",
+    "tutorialmod:nether_moonstone_ore",
+    "tutorialmod:end_moonstone_ore"
+
   ]
 }

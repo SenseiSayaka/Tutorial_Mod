@@ -19,8 +19,12 @@ public class ModCreativeModTabs {
             .displayItems((pParameters, pOutput) ->{
                 pOutput.accept(ModItems.MOONSTONE.get());
                 pOutput.accept(ModItems.RAW_MOONSTONE.get());
-                pOutput.accept(ModBlocks.MOONSTONE_BLOCK.get());
                 pOutput.accept(ModBlocks.MOONSTONE_ORE.get());
+                pOutput.accept(ModBlocks.MOONSTONE_BLOCK.get());
+                pOutput.accept(ModBlocks.RAW_MOONSTONE_BLOCK.get());
+                pOutput.accept(ModBlocks.DEEPSLATE_MOONSTONE_ORE.get());
+                pOutput.accept(ModBlocks.NETHER_MOONSTONE_ORE.get());
+                pOutput.accept(ModBlocks.END_MOONSTONE_ORE.get());
             })
             .build());
 
