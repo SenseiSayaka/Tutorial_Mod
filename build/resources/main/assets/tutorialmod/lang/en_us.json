@@ -7,5 +7,6 @@
   "block.tutorialmod.moonstone_ore": "Moonstone Ore",
   "block.tutorialmod.deepslate_moonstone_ore": "Deepslate Moonstone Ore",
   "block.tutorialmod.nether_moonstone_ore": "Nether Moonstone Ore",
-  "block.tutorialmod.end_moonstone_ore": "Endstone Moonstone Ore"
+  "block.tutorialmod.end_moonstone_ore": "Endstone Moonstone Ore",
+  "item.tutorialmod.moonstone_magnetic": "Moonstone Magnetic"
 }
