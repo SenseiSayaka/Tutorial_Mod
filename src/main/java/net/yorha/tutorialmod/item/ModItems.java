@@ -17,7 +17,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_MOONSTONE = ITEMS.register("raw_moonstone",() -> new Item(new Item.Properties()));
 
-    public static final  RegistryObject<Item> MOONSTONE_MAGNETIC  = ITEMS.register("moonstone_magnetic", () -> new MoonstoneMagneticItem( new Item.Properties().durability(4500)));
+    public static final  RegistryObject<Item> MOONSTONE_MAGNETIC  = ITEMS.register("moonstone_magnetic", () -> new MoonstoneMagneticItem( new Item.Properties().durability(100)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

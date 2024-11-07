@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yorha.tutorialmod.TutorialMod;
+import net.yorha.tutorialmod.block.custom.MoonstoneHealingBlock;
 import net.yorha.tutorialmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -39,6 +40,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> END_MOONSTONE_ORE =registerBlock("end_moonstone_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(5f).requiresCorrectToolForDrops(), UniformInt.of(12, 17)));
+
+    public static final RegistryObject<Block> HEALING_MOONSTONE_BLOCK =registerBlock("healing_moonstone_block",
+            () -> new MoonstoneHealingBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).sound(SoundType.AMETHYST)));
+
 
     private static<T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

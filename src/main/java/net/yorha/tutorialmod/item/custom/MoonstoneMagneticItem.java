@@ -37,6 +37,9 @@ public class MoonstoneMagneticItem extends Item {
 
             }
         }
+        pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(), player1 -> player.broadcastBreakEvent(player.getUsedItemHand()));
+
+
         return InteractionResult.SUCCESS;
     }
 }

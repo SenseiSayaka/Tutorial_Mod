@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.NETHER_MOONSTONE_ORE.get());
                 pOutput.accept(ModBlocks.END_MOONSTONE_ORE.get());
                 pOutput.accept(ModItems.MOONSTONE_MAGNETIC.get());
+                pOutput.accept(ModBlocks.HEALING_MOONSTONE_BLOCK.get());
             })
             .build());
 
