@@ -10,5 +10,7 @@
   "block.tutorialmod.end_moonstone_ore": "Endstone Moonstone Ore",
   "item.tutorialmod.moonstone_magnetic": "Moonstone Magnetic",
   "block.tutorialmod.healing_moonstone_block": "Moonstone Healing Block",
-  "item.tutorialmod.moonstone_apple": "Moonstone Apple"
+  "item.tutorialmod.moonstone_apple": "Moonstone Apple",
+  "item.tutorialmod.moonstone_fuel_core": "Moonstone Fuel Core",
+  "tooltip.tutorialmod.moonstone_magnetic.tooltip": "When it right-clicked, it attracts objects to you within a radius of 6 blocks in increments of 1"
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 125,
+  "experience": 0.25,
+  "group": "moonstone",
+  "ingredient": {
+    "item": "tutorialmod:moonstone_ore"
+  },
+  "result": "tutorialmod:moonstone"
+}

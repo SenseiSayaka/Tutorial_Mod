@@ -1,0 +1,16 @@
+{
+  "values": [
+    "tutorialmod:moonstone_ore",
+    "#forge:ores",
+    "tutorialmod:raw_moonstone_block",
+    "#forge:storage_blocks/raw_iron",
+    "tutorialmod:nether_moonstone_ore",
+    "#forge:ores",
+    "tutorialmod:deepslate_moonstone_ore",
+    "#forge:ores",
+    "tutorialmod:end_moonstone_ore",
+    "#forge:ores",
+    "tutorialmod:moonstone_block",
+    "#forge:storage_blocks"
+  ]
+}

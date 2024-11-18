@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:golden_apple"
+    },
+    "C": {
+      "item": "tutorialmod:moonstone"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "DCD",
+    "CAC",
+    "DCD"
+  ],
+  "result": {
+    "item": "tutorialmod:moonstone_apple"
+  },
+  "show_notification": true
+}

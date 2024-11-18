@@ -320,5 +320,149 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-11-09 20:11:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-11-09 20:11:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-11-09 20:11:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-11-09 20:11:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-11-09 20:11:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-11-09 20:11:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2024-11-09 20:11:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-11-09 20:11:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-11-09 20:11:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-11-09 20:11:51 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_blasting_nether_moonstone_ore": {
+    "criteria": {
+      "has_nether_moonstone_ore": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_blasting_raw_moonstone": {
+    "criteria": {
+      "has_raw_moonstone": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/food/moonstone_apple": {
+    "criteria": {
+      "has_moonstone_apple": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_smelting_end_moonstone_ore": {
+    "criteria": {
+      "has_end_moonstone_ore": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_blasting_moonstone_ore": {
+    "criteria": {
+      "has_moonstone_ore": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_blasting_deepslate_moonstone_ore": {
+    "criteria": {
+      "has_deepslate_moonstone_ore": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/raw_moonstone": {
+    "criteria": {
+      "has_raw_moonstone": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_smelting_nether_moonstone_ore": {
+    "criteria": {
+      "has_nether_moonstone_ore": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_smelting_raw_moonstone": {
+    "criteria": {
+      "has_raw_moonstone": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_blasting_end_moonstone_ore": {
+    "criteria": {
+      "has_end_moonstone_ore": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_smelting_moonstone_ore": {
+    "criteria": {
+      "has_moonstone_ore": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone": {
+    "criteria": {
+      "has_moonstone_block": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_block": {
+    "criteria": {
+      "has_moonstone": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/moonstone_from_smelting_deepslate_moonstone_ore": {
+    "criteria": {
+      "has_deepslate_moonstone_ore": "2024-11-18 23:44:25 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

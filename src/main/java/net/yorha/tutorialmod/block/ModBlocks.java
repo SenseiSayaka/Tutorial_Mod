@@ -42,7 +42,7 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(5f).requiresCorrectToolForDrops(), UniformInt.of(12, 17)));
 
     public static final RegistryObject<Block> HEALING_MOONSTONE_BLOCK =registerBlock("healing_moonstone_block",
-            () -> new MoonstoneHealingBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).sound(SoundType.AMETHYST)));
+            () -> new MoonstoneHealingBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).sound(SoundType.AMETHYST).noLootTable()));
 
 
     private static<T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

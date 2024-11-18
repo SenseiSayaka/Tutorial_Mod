@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "tutorialmod:moonstone"
+    },
+    "D": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "pattern": [
+    "DCD",
+    "CAC",
+    "DCD"
+  ],
+  "result": {
+    "item": "tutorialmod:moonstone_fuel_core"
+  },
+  "show_notification": true
+}

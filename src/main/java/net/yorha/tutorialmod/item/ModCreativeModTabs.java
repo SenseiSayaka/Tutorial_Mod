@@ -28,6 +28,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.MOONSTONE_MAGNETIC.get());
                 pOutput.accept(ModBlocks.HEALING_MOONSTONE_BLOCK.get());
                 pOutput.accept(ModItems.MOONSTONE_APPLE.get());
+                pOutput.accept(ModItems.MOONSTONE_FUEL_CORE.get());
             })
             .build());
 

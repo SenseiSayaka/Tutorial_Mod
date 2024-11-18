@@ -1,0 +1,7 @@
+// 1.20.1	2024-11-18T23:33:13.1507496	Loot Tables
+b8ce3ea80cc47ea78c028791ca903611937e7a45 data/tutorialmod/loot_tables/blocks/deepslate_moonstone_ore.json
+fe19c0f90710b75b424b632f26af673846e32ecd data/tutorialmod/loot_tables/blocks/end_moonstone_ore.json
+af6a695c6f5bc034a92b9d5f05b1c7e3e27d05dc data/tutorialmod/loot_tables/blocks/moonstone_block.json
+9ed7076837e2a26089189e98b4c1d1b83fe3e057 data/tutorialmod/loot_tables/blocks/moonstone_ore.json
+7af737710e0b5d29fe811cf004b55595d7f8984e data/tutorialmod/loot_tables/blocks/nether_moonstone_ore.json
+a855d0863dce33d6dcf653fff8c6b542701a3835 data/tutorialmod/loot_tables/blocks/raw_moonstone_block.json
