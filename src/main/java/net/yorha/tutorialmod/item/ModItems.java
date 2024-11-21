@@ -24,6 +24,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> MOONSTONE_FUEL_CORE = ITEMS.register("moonstone_fuel_core", () -> new MoonstoneFuelCoreItem(new Item.Properties(), 4000));
 
+    public static final RegistryObject<Item> MOONSTONE_STAFF = ITEMS.register("moonstone_staff", () -> new Item(new Item.Properties()));
+
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

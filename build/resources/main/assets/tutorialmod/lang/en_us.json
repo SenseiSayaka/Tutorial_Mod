@@ -14,6 +14,7 @@
   "item.tutorialmod.moonstone_magnetic": "Moonstone Magnetic",
   "item.tutorialmod.moonstone_apple": "Moonstone Apple",
   "item.tutorialmod.moonstone_fuel_core": "Moonstone Fuel Core",
+  "item.tutorialmod.moonstone_staff": "Moonstone Staff",
 
   "tooltip.tutorialmod.moonstone_magnetic.tooltip": "When it right-clicked, it attracts objects to you within a radius of 6 blocks in increments of 1",
 

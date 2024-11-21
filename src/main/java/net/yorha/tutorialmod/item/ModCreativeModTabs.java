@@ -38,6 +38,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.MOONSTONE_SLAB.get());
                 pOutput.accept(ModBlocks.MOONSTONE_PRESSURE_PLATE.get());
                 pOutput.accept(ModBlocks.MOONSTONE_STAIRS.get());
+                pOutput.accept(ModItems.MOONSTONE_STAFF.get());
             })
             .build());
 
