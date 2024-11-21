@@ -1,6 +1,15 @@
-// 1.20.1	2024-11-18T23:33:13.1627492	Item Models: tutorialmod
+// 1.20.1	2024-11-21T12:50:20.1673384	Item Models: tutorialmod
 831cc06781e1283cd2b7a154c4b27c9810951f26 assets/tutorialmod/models/item/moonstone.json
 a76a4e9a773639f55e3f550b67298ee8f7ef58f9 assets/tutorialmod/models/item/moonstone_apple.json
+a77114adbb2369937f25ac1c07779cc039eb7593 assets/tutorialmod/models/item/moonstone_button.json
+d21cd1f12e0c414c51b5a881a4b8823a773aec9d assets/tutorialmod/models/item/moonstone_door.json
+3aa4c33a4e6580e34e7f0d1e96b97e756b112cac assets/tutorialmod/models/item/moonstone_fence.json
+aa00000c8dbd66f08976a1eb9395bf10e163f7a1 assets/tutorialmod/models/item/moonstone_fence_gate.json
 87de796985aaa53e5387bd134c5a2b5f22d72854 assets/tutorialmod/models/item/moonstone_fuel_core.json
 7191dc56fb2c9ea30946b2a144d28e61fc7ee79c assets/tutorialmod/models/item/moonstone_magnetic.json
+b1e88b1e07119b9debd24c4d8f868f3f5823cc36 assets/tutorialmod/models/item/moonstone_pressure_plate.json
+0c9b705cf1947c1f96885a2afbcf6610a845fc11 assets/tutorialmod/models/item/moonstone_slab.json
+557ef6350a85bdc7e058f09b11dad131c536110d assets/tutorialmod/models/item/moonstone_stairs.json
+99ba785eab66d0fa04966d427b480bacee6acf3a assets/tutorialmod/models/item/moonstone_trap_door.json
+c6911cf9735390fd9b00ad52fdcbbf8d0fb1b62d assets/tutorialmod/models/item/moonstone_wall.json
 06272f468a775d7c3676fd707795c7e76a02a1aa assets/tutorialmod/models/item/raw_moonstone.json

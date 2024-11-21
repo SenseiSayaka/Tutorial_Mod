@@ -1,13 +1,13 @@
 package net.yorha.tutorialmod.block;
 
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -43,6 +43,47 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> HEALING_MOONSTONE_BLOCK =registerBlock("healing_moonstone_block",
             () -> new MoonstoneHealingBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).sound(SoundType.AMETHYST).noLootTable()));
+
+
+
+
+    public static final RegistryObject<Block> MOONSTONE_STAIRS =registerBlock("moonstone_stairs",
+            () -> new StairBlock(() -> ModBlocks.MOONSTONE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> MOONSTONE_SLAB =registerBlock("moonstone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> MOONSTONE_BUTTON =registerBlock("moonstone_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.AMETHYST),
+                    BlockSetType.GOLD, 10, true));
+
+    public static final RegistryObject<Block> MOONSTONE_PRESSURE_PLATE =registerBlock("moonstone_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST),
+                    BlockSetType.GOLD));
+
+
+    public static final RegistryObject<Block> MOONSTONE_FENCE =registerBlock("moonstone_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST)));
+
+
+    public static final RegistryObject<Block> MOONSTONE_FENCE_GATE =registerBlock("moonstone_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST), SoundEvents.CHAIN_PLACE, SoundEvents.CHAIN_BREAK));
+
+    public static final RegistryObject<Block> MOONSTONE_WALL =registerBlock("moonstone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> MOONSTONE_DOOR =registerBlock("moonstone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST).noOcclusion(),
+                    BlockSetType.GOLD));
+
+
+    public static final RegistryObject<Block> MOONSTONE_TRAP_DOOR =registerBlock("moonstone_trap_door",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.GOLD));
+
+
+
+
 
 
     private static<T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

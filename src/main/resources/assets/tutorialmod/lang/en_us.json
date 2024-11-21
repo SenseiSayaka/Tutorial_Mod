@@ -4,13 +4,26 @@
   "creativetab.tutorial_tab":"Moonstone Mod",
   "block.tutorialmod.moonstone_block": "Moonstone Block",
   "block.tutorialmod.raw_moonstone_block": "Raw Moonstone Block",
+
   "block.tutorialmod.moonstone_ore": "Moonstone Ore",
   "block.tutorialmod.deepslate_moonstone_ore": "Deepslate Moonstone Ore",
   "block.tutorialmod.nether_moonstone_ore": "Nether Moonstone Ore",
   "block.tutorialmod.end_moonstone_ore": "Endstone Moonstone Ore",
-  "item.tutorialmod.moonstone_magnetic": "Moonstone Magnetic",
   "block.tutorialmod.healing_moonstone_block": "Moonstone Healing Block",
+
+  "item.tutorialmod.moonstone_magnetic": "Moonstone Magnetic",
   "item.tutorialmod.moonstone_apple": "Moonstone Apple",
   "item.tutorialmod.moonstone_fuel_core": "Moonstone Fuel Core",
-  "tooltip.tutorialmod.moonstone_magnetic.tooltip": "When it right-clicked, it attracts objects to you within a radius of 6 blocks in increments of 1"
+
+  "tooltip.tutorialmod.moonstone_magnetic.tooltip": "When it right-clicked, it attracts objects to you within a radius of 6 blocks in increments of 1",
+
+  "block.tutorialmod.moonstone_stairs": "Moonstone Stair",
+  "block.tutorialmod.moonstone_slab": "Moonstone Slab",
+  "block.tutorialmod.moonstone_button": "Moonstone Button",
+  "block.tutorialmod.moonstone_pressure_plate": "Moonstone Pressure Plate",
+  "block.tutorialmod.moonstone_fence": "Moonstone Fence",
+  "block.tutorialmod.moonstone_fence_gate": "Moonstone Fence Gate",
+  "block.tutorialmod.moonstone_wall": "Moonstone Wall",
+  "block.tutorialmod.moonstone_door": "Moonstone Door",
+  "block.tutorialmod.moonstone_trap_door": "Moonstone Trap Door"
 }

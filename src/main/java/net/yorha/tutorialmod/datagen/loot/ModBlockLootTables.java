@@ -41,6 +41,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.END_MOONSTONE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.END_MOONSTONE_ORE.get(),ModItems.RAW_MOONSTONE.get()));
+        this.dropSelf(ModBlocks.MOONSTONE_STAIRS.get());
+        this.dropSelf(ModBlocks.MOONSTONE_BUTTON.get());
+        this.dropSelf(ModBlocks.MOONSTONE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.MOONSTONE_TRAP_DOOR.get());
+        this.dropSelf(ModBlocks.MOONSTONE_FENCE.get());
+        this.dropSelf(ModBlocks.MOONSTONE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.MOONSTONE_WALL.get());
+
+
+        this.add(ModBlocks.MOONSTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOONSTONE_SLAB.get()));
+        this.add(ModBlocks.MOONSTONE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.MOONSTONE_DOOR.get()));
 
     }
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/moonstone_slab"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/moonstone_block"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/moonstone_slab_top"
+    }
+  }
+}

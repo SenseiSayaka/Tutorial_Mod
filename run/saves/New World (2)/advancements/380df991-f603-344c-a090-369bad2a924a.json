@@ -464,5 +464,11 @@
     },
     "done": true
   },
+  "tutorialmod:recipes/misc/moonstone_fuel_core": {
+    "criteria": {
+      "has_moonstone_fuel_core": "2024-11-21 12:45:18 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

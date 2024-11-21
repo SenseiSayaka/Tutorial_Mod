@@ -29,6 +29,15 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.HEALING_MOONSTONE_BLOCK.get());
                 pOutput.accept(ModItems.MOONSTONE_APPLE.get());
                 pOutput.accept(ModItems.MOONSTONE_FUEL_CORE.get());
+                pOutput.accept(ModBlocks.MOONSTONE_BUTTON.get());
+                pOutput.accept(ModBlocks.MOONSTONE_DOOR.get());
+                pOutput.accept(ModBlocks.MOONSTONE_TRAP_DOOR.get());
+                pOutput.accept(ModBlocks.MOONSTONE_WALL.get());
+                pOutput.accept(ModBlocks.MOONSTONE_FENCE.get());
+                pOutput.accept(ModBlocks.MOONSTONE_FENCE_GATE.get());
+                pOutput.accept(ModBlocks.MOONSTONE_SLAB.get());
+                pOutput.accept(ModBlocks.MOONSTONE_PRESSURE_PLATE.get());
+                pOutput.accept(ModBlocks.MOONSTONE_STAIRS.get());
             })
             .build());
 
