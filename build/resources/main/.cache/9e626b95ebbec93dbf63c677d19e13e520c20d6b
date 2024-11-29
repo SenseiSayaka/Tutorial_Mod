@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-21T12:37:20.353234	Tags for minecraft:block mod id tutorialmod
+// 1.20.1	2024-11-24T20:57:44.7840964	Tags for minecraft:block mod id tutorialmod
 9373ce6f22b2c92f39bf86a26264a386638ae29e data/forge/tags/blocks/needs_netherite_tool.json
 86973b7efdb6054406b136cb64fb36c6dbbedec2 data/minecraft/tags/blocks/fences.json
 c0523a990bb75f17787f7bb3b08ab06bc64dcfec data/minecraft/tags/blocks/fence_gates.json
@@ -7,3 +7,4 @@ cdb9e4e3171d766ef428641df1868b8c31041a60 data/minecraft/tags/blocks/mineable/pic
 a72cd9ac1023c40d319b012d080eefe4d0806b3b data/minecraft/tags/blocks/needs_iron_tool.json
 4f14c7d24b91fd6b6c359b2b72a41072df3582c6 data/minecraft/tags/blocks/walls.json
 cf0cea3ce0ae3d4652df5a774f02b8038f33b316 data/tutorialmod/tags/blocks/moonstone_blocks_ores.json
+17938ffedf8c8dfea2cf5fdc44b53988dd67cc27 data/tutorialmod/tags/blocks/needs_moonstone_tool.json

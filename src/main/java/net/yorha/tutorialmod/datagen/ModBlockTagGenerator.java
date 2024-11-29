@@ -43,6 +43,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.NETHER_MOONSTONE_ORE.get()).addTag(Tags.Blocks.ORES);
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(ModBlocks.END_MOONSTONE_ORE.get()).addTag(Tags.Blocks.ORES);
 
+        this.tag(ModTags.Blocks.NEEDS_MOONSTONE_TOOL).add(ModBlocks.HEALING_MOONSTONE_BLOCK.get());
+
         this.tag(BlockTags.FENCES).add(ModBlocks.MOONSTONE_FENCE.get());
         this.tag(BlockTags.FENCE_GATES).add(ModBlocks.MOONSTONE_FENCE_GATE.get());
         this.tag(BlockTags.WALLS).add(ModBlocks.MOONSTONE_WALL.get());

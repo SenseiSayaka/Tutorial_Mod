@@ -16,6 +16,23 @@
   "item.tutorialmod.moonstone_fuel_core": "Moonstone Fuel Core",
   "item.tutorialmod.moonstone_staff": "Moonstone Staff",
 
+  "item.tutorialmod.moonstone_helmet": "Moonstone Helmet",
+  "item.tutorialmod.moonstone_chestplate": "Moonstone Chestplate",
+  "item.tutorialmod.moonstone_leggings": "Moonstone Leggings",
+  "item.tutorialmod.moonstone_boots": "Moonstone Boots",
+
+
+
+
+  "item.tutorialmod.moonstone_sword": "Moonstone Sword",
+  "item.tutorialmod.moonstone_pickaxe": "Moonstone Pickaxe",
+  "item.tutorialmod.moonstone_axe": "Moonstone Axe",
+  "item.tutorialmod.moonstone_shovel": "Moonstone Shovel",
+  "item.tutorialmod.moonstone_hoe": "Moonstone Hoe",
+
+
+
+
   "tooltip.tutorialmod.moonstone_magnetic.tooltip": "When it right-clicked, it attracts objects to you within a radius of 6 blocks in increments of 1",
 
   "block.tutorialmod.moonstone_stairs": "Moonstone Stair",

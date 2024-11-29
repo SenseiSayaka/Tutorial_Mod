@@ -39,6 +39,16 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.MOONSTONE_PRESSURE_PLATE.get());
                 pOutput.accept(ModBlocks.MOONSTONE_STAIRS.get());
                 pOutput.accept(ModItems.MOONSTONE_STAFF.get());
+                pOutput.accept(ModItems.MOONSTONE_SWORD.get());
+                pOutput.accept(ModItems.MOONSTONE_PICKAXE.get());
+                pOutput.accept(ModItems.MOONSTONE_AXE.get());
+                pOutput.accept(ModItems.MOONSTONE_SHOVEL.get());
+                pOutput.accept(ModItems.MOONSTONE_HOE.get());
+                pOutput.accept(ModItems.MOONSTONE_HELMET.get());
+                pOutput.accept(ModItems.MOONSTONE_CHESTPLATE.get());
+                pOutput.accept(ModItems.MOONSTONE_LEGGINGS.get());
+                pOutput.accept(ModItems.MOONSTONE_BOOTS.get());
+
             })
             .build());
 
