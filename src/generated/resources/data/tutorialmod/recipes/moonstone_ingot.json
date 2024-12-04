@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "tutorialmod:moonstone"
+    }
+  },
+  "pattern": [
+    " C ",
+    "CAC",
+    " C "
+  ],
+  "result": {
+    "item": "tutorialmod:moonstone_ingot"
+  },
+  "show_notification": true
+}

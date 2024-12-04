@@ -1,0 +1,5 @@
+// 1.20.1	2024-12-04T23:48:54.8159357	Global Loot Modifiers : tutorialmod
+0011d55ebcd5035ad199987300587a44e8dc3639 data/forge/loot_modifiers/global_loot_modifiers.json
+ff1ec91f2ba3fd552674122bef01530398534e07 data/tutorialmod/loot_modifiers/moonstone_fuel_core_from_stone.json
+40b81dc79c48de7859f4fe3ce7fdf428246f3041 data/tutorialmod/loot_modifiers/moonstone_fuel_core_from_zombie.json
+4dfff2602f4de5cb12163fb8babf5fe578dda5e5 data/tutorialmod/loot_modifiers/moonstone_magnetic_from_desert_pyramid_chest.json

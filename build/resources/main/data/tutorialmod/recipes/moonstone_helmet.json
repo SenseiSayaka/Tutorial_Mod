@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "tutorialmod:moonstone_ingot"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "C C",
+    "   "
+  ],
+  "result": {
+    "item": "tutorialmod:moonstone_helmet"
+  },
+  "show_notification": true
+}

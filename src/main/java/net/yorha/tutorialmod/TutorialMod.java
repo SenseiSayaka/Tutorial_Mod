@@ -19,6 +19,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.yorha.tutorialmod.block.ModBlocks;
 import net.yorha.tutorialmod.item.ModCreativeModTabs;
 import net.yorha.tutorialmod.item.ModItems;
+import net.yorha.tutorialmod.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -36,14 +37,16 @@ public class TutorialMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        // Register the commonSetup method for modloading
+        ModLootModifiers.register(modEventBus);
+
+
         modEventBus.addListener(this::commonSetup);
 
         ModCreativeModTabs.register((modEventBus));
-        // Register ourselves for server and other game events we are interested in
+
         MinecraftForge.EVENT_BUS.register(this);
 
-        // Register the item to a creative tab
+
         modEventBus.addListener(this::addCreative);
     }
 

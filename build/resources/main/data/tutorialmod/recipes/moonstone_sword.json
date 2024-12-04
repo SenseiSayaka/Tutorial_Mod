@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "tutorialmod:moonstone_rod"
+    },
+    "C": {
+      "item": "tutorialmod:moonstone_ingot"
+    }
+  },
+  "pattern": [
+    " C ",
+    " C ",
+    " A "
+  ],
+  "result": {
+    "item": "tutorialmod:moonstone_sword"
+  },
+  "show_notification": true
+}

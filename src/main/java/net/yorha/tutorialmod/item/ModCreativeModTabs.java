@@ -48,6 +48,8 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.MOONSTONE_CHESTPLATE.get());
                 pOutput.accept(ModItems.MOONSTONE_LEGGINGS.get());
                 pOutput.accept(ModItems.MOONSTONE_BOOTS.get());
+                pOutput.accept(ModItems.MOONSTONE_ROD.get());
+                pOutput.accept(ModItems.MOONSTONE_INGOT.get());
 
             })
             .build());

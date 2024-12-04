@@ -46,6 +46,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MOONSTONE_MAGNETIC);
         simpleItem(ModItems.MOONSTONE_FUEL_CORE);
         simpleItem(ModItems.RAW_MOONSTONE);
+        simpleItem(ModItems.MOONSTONE_INGOT);
+        simpleItem(ModItems.MOONSTONE_ROD);
+
         simpleBlockItem(ModBlocks.MOONSTONE_DOOR);
         fenceItem(ModBlocks.MOONSTONE_FENCE, ModBlocks.MOONSTONE_BLOCK);
         wallItem(ModBlocks.MOONSTONE_WALL, ModBlocks.MOONSTONE_BLOCK);

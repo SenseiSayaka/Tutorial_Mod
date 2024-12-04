@@ -73,6 +73,104 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MOONSTONE_INGOT.get())
+                .pattern(" C ")
+                .pattern("CAC")
+                .pattern(" C ")
+                .define('C', ModItems.MOONSTONE.get())
+                .define('A', Items.DIAMOND)
+                .unlockedBy(getHasName((ModItems.MOONSTONE_INGOT.get())), has(ModItems.MOONSTONE_INGOT.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MOONSTONE_ROD.get())
+                .pattern(" C ")
+                .pattern(" C ")
+                .pattern(" C ")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_ROD.get())), has(ModItems.MOONSTONE_ROD.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.MOONSTONE_PICKAXE.get())
+                .pattern("CCC")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .define('A', ModItems.MOONSTONE_ROD.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_PICKAXE.get())), has(ModItems.MOONSTONE_PICKAXE.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.MOONSTONE_AXE.get())
+                .pattern(" CC")
+                .pattern(" AC")
+                .pattern(" A ")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .define('A', ModItems.MOONSTONE_ROD.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_AXE.get())), has(ModItems.MOONSTONE_AXE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.MOONSTONE_SWORD.get())
+                .pattern(" C ")
+                .pattern(" C ")
+                .pattern(" A ")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .define('A', ModItems.MOONSTONE_ROD.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_SWORD.get())), has(ModItems.MOONSTONE_SWORD.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.MOONSTONE_SHOVEL.get())
+                .pattern(" C ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .define('A', ModItems.MOONSTONE_ROD.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_SHOVEL.get())), has(ModItems.MOONSTONE_SHOVEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.MOONSTONE_HOE.get())
+                .pattern(" CC")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .define('A', ModItems.MOONSTONE_ROD.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_HOE.get())), has(ModItems.MOONSTONE_HOE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.MOONSTONE_HELMET.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_HELMET.get())), has(ModItems.MOONSTONE_HELMET.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.MOONSTONE_CHESTPLATE.get())
+                .pattern("C C")
+                .pattern("CCC")
+                .pattern("CCC")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_CHESTPLATE.get())), has(ModItems.MOONSTONE_CHESTPLATE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.MOONSTONE_LEGGINGS.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_LEGGINGS.get())), has(ModItems.MOONSTONE_LEGGINGS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.MOONSTONE_BOOTS.get())
+                .pattern("   ")
+                .pattern("C C")
+                .pattern("C C")
+                .define('C', ModItems.MOONSTONE_INGOT.get())
+                .unlockedBy(getHasName((ModItems.MOONSTONE_BOOTS.get())), has(ModItems.MOONSTONE_BOOTS.get()))
+                .save(pWriter);
+
+
+
     }
 
 

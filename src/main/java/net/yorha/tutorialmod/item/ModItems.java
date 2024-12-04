@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yorha.tutorialmod.TutorialMod;
+import net.yorha.tutorialmod.item.custom.ModArmorItem;
 import net.yorha.tutorialmod.item.custom.MoonstoneFuelCoreItem;
 import net.yorha.tutorialmod.item.custom.MoonstoneMagneticItem;
 
@@ -39,11 +40,20 @@ public class ModItems {
 
     public static final RegistryObject<Item> MOONSTONE_HELMET = ITEMS.register("moonstone_helmet", () -> new ArmorItem(ModArmorMaterials.MOONSTONE, ArmorItem.Type.HELMET, new Item.Properties()));
 
-    public static final RegistryObject<Item> MOONSTONE_CHESTPLATE = ITEMS.register("moonstone_chestplate", () -> new ArmorItem(ModArmorMaterials.MOONSTONE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> MOONSTONE_CHESTPLATE = ITEMS.register("moonstone_chestplate", () -> new ModArmorItem(ModArmorMaterials.MOONSTONE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 
     public static final RegistryObject<Item> MOONSTONE_LEGGINGS = ITEMS.register("moonstone_leggings", () -> new ArmorItem(ModArmorMaterials.MOONSTONE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
 
     public static final RegistryObject<Item> MOONSTONE_BOOTS = ITEMS.register("moonstone_boots", () -> new ArmorItem(ModArmorMaterials.MOONSTONE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> MOONSTONE_INGOT = ITEMS.register("moonstone_ingot", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MOONSTONE_ROD = ITEMS.register("moonstone_rod", () -> new Item(new Item.Properties()));
+
+
+
+
+
 
 
 
